@@ -71,4 +71,4 @@ Text-to-Speech: Browser SpeechSynthesis API
 - Browser permissions for microphone and audio playback are required.
 
 ## Demo Video:
-<video src="demo/voiceai demo.mp4" width="320" height="240" controls></video>
+<video src="voiceai demo.mp4" width="320" height="240" controls></video>
