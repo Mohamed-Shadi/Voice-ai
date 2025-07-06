@@ -4,6 +4,8 @@
 
 The app is responsive, browser-friendly, and supports both male and female voice responses with a live test feature.
 
+<br />
+
 ## Features
 🎤 Voice input using browser microphone
 
@@ -23,6 +25,8 @@ The app is responsive, browser-friendly, and supports both male and female voice
 
 🕒 Timestamps for each message
 
+<br />
+
 ## Tech Stack
 Frontend: Next.js (React)
 
@@ -31,6 +35,8 @@ Speech Recognition: Browser API (webkitSpeechRecognition)
 LLM: Google Gemini API
 
 Text-to-Speech: Browser SpeechSynthesis API
+
+<br />
 
 ## Setup Instructions
 1. Clone this repository:
@@ -56,6 +62,8 @@ Text-to-Speech: Browser SpeechSynthesis API
 
 ## Live Demo
 ### The app is deployed and accessible here: https://voiceai-ten.vercel.app
+
+<br />
 
 ## Notes
 - Voice recognition works best in Google Chrome, Microsoft Edge, and Safari.
