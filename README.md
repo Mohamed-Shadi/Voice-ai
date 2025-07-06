@@ -69,3 +69,6 @@ Text-to-Speech: Browser SpeechSynthesis API
 - Voice recognition works best in Google Chrome, Microsoft Edge, and Safari.
 - For mobile users, the UI is fully responsive.
 - Browser permissions for microphone and audio playback are required.
+
+## Demo Video:
+<video src="demo/voiceai demo.mp4" width="320" height="240" controls></video>
