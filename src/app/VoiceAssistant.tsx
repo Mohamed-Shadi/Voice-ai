@@ -350,7 +350,7 @@
             <div className="bg-white rounded-2xl shadow-xl p-6">
               {/* Simple Voice Selection */}
               <div className="mb-6 p-4 bg-gray-50 rounded-xl">
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 Small-Mob">
                   <h3 className="text-sm font-semibold text-gray-800 flex items-center gap-2">
                     <Volume2 className="w-5 h-5" />
                     Choose Voice
@@ -456,7 +456,7 @@
               </div>
 
               {/* Text Input */}
-              <div className="flex gap-2">
+              <div className="flex gap-2 Small-Mob">
                 <input
                   type="text"
                   value={textInput}
