@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Voice AI Assistant - Web App
 
-## Getting Started
+### This is a voice-based AI assistant built with Next.js that allows users to interact via voice or text. The assistant listens to user input, processes it using Google's Gemini LLM API, and responds back through text-to-speech.
 
-First, run the development server:
+The app is responsive, browser-friendly, and supports both male and female voice responses with a live test feature.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+🎤 Voice input using browser microphone
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📝 Speech-to-text conversion using browser’s SpeechRecognition API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🤖 AI-powered responses via Google Gemini API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🗣️ Text-to-speech response using browser’s SpeechSynthesis API
 
-## Learn More
+💬 Conversation memory (Bonus)
 
-To learn more about Next.js, take a look at the following resources:
+🧑‍🔧 Voice selection (male/female) with test voice option (Bonus)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📱 Mobile responsive design (Bonus)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✍️ Option to type text messages if microphone is not available
 
-## Deploy on Vercel
+🕒 Timestamps for each message
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
+Frontend: Next.js (React)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Speech Recognition: Browser API (webkitSpeechRecognition)
+
+LLM: Google Gemini API
+
+Text-to-Speech: Browser SpeechSynthesis API
+
+## Setup Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/voice-ai-assistant.git
+   cd voice-ai-assistant
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a .env.local file in the project root and add your Gemini API key:
+   ```bash
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+4. Run the development server:
+    ```bash
+   npm run dev
+   ```
+5. Open http://localhost:3000 in your browser.
+
+<br />
+
+## Live Demo
+### The app is deployed and accessible here: https://voiceai-ten.vercel.app
+
+## Notes
+- Voice recognition works best in Google Chrome, Microsoft Edge, and Safari.
+- For mobile users, the UI is fully responsive.
+- Browser permissions for microphone and audio playback are required.
