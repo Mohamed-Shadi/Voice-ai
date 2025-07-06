@@ -32,3 +32,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 380px) {
+  .Small-Mob {
+    flex-direction: column;
+  }
+}
